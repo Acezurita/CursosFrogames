@@ -138,16 +138,14 @@ def esBisiesto() :
         print("No ingreso un argumento válido") 
         
 ''' Pregunta 7
-Busca la imagen de un tablero de ajedrez en Google y fíjate 
-en la nomenclatura de las casillas. Escribe una secuencia 
-que lea una letra y un número de teclado correspondiente 
-a una casilla de un tablero de ajedrez y que indique si esta
+Busca la imagen de un tablero de ajedrez en Google y fíjate en la nomenclatura de las
+casillas. Escribe una secuencia que lea una letra y un número de teclado correspondiente a una casilla de un tablero de ajedrez y que indique si esta
 casilla es negra o blanca. '''
 def suCasilla() :
     try:
-        let=(input( "Ingrese la letra de la posición : " )).lower
+        let=(input( "Ingrese la letra de la posición : " )).lower()
         num=(int(input( "Ingrese el número de la posición: " )))
-        if(num>0 and num <9):
+        if(num>0 and num<9):
             if let == 'a' or let =='c' or let =='e' or let=='g':  
                 if num%2 != 0:
                     print("Casilla Negra:Posicion ",let,"-",num)
