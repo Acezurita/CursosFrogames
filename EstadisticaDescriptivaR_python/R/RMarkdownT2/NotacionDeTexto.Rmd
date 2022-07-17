@@ -1,0 +1,71 @@
+---
+title: "NotacionDeTexto"
+author: "Acezurita"
+date: "19/6/2022"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+# Título 1
+
+## Título 2
+
+### Título 3
+
+#### Título 4
+
+##### Título 5  
+
+###### Título 6
+
+Esto es un texto llano, podemos excribir sin ningun problema todo el texto que queramos para acompañar a tanto el codigo en `R` como las fórmulas en $LaTeX$.
+
+Doble Intro para que se pueda separar los parrafos y se genere una nueva línea
+
+Para usar *Cursiva* se usan  *asteriscos* antes y después dle texto o tambien usar _barra baja_ da _cursiva_ también.
+
+Para colocar **negrita** se usa **doble asterisco o también __doble barra baja__
+
+Los superíndices van con el sombrerito^aLa2^ como ejemplo
+
+La doble tílde se usa para tachar ~~El hentai es malo para la salud~~.
+
+Para utilizar links se usa corchetes para el nombre de la página y parentesis para el link en cuestión , es decir : [Mi GitHub](https://github.com/Acezurita/CursosFrogames)
+
+Guión corto(endash) el típico de los guiónes de texto , doble línea -- Adrian dijo: Tal y tal  
+Guión largo(emdash) se usa pare generar enfásis , con triple línea , el cua viene de un texto como este ... --- Y por tanto sí lo logro el ¡HDP!
+
+Meter imagen se usa signo de exclamación final, corchetes y los paréntesis para colocar la ruta, te puedes mover dando tabulador y escribir ../../ tipo cmd para buscar la imagen entre carpetas   
+![](Variedad Kaori - copia.jpg)  
+
+***
+Triple asterisco, genera una línea divisora
+
+> Esto es una cita 
+
+### Listas no ordenadas 
+
+* Item primero con asterisco
+* Item segundo con asterisco
+    + Sub item con tabulador y el signo de más
+    + Sub item 2
+    + Sub item 3
+* Item tercero
+
+### Listas ordenadas
+
+1. Primer ítem
+2. Segundo ítem
+    + Sub ítem, puede ser una lista no ordenada a su vez
+3. Tercer ítem
+1. Cuarto ítem
+1. Quinto ítem
+
+### Tablas
+
+Anime        |   Tipo      |  Duracion 
+-------------|-------------|------------
+School Days  |   Echi      | 12 Caps
+Evangelion   |Apocaliptico | 24 Caps
+Nagatoro     | Echi        | 12 Caps

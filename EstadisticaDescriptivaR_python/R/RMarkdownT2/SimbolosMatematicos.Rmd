@@ -1,0 +1,99 @@
+---
+title: "Tema2 RMarkDown"
+author: "Acezurita"
+date: "10/6/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#R MArkDown
+Esta es una ecuación $Ax^3+Bx^2+Cx+D=0$
+Y este es una mega ecuación jeje 
+$$x= \frac{-\beta\pm\sqrt{\beta^2-4\alpha\gamma}}{2\alpha}$$
+El signo de dinero una vez, permite añadir una fórmula en la misma linea.
+Dos signos de dinero, generan una formula centrada al final de parrafo
+
+Simbolos Matemáticos 
+suma $+$
+Resta $-$
+Producto$\cdot$
+División $\div$
+Potencia $a^{x}$
+Subindice $a_{i}$
+
+Fracción $\frac{a}{b}$
+Más menos $\pm$
+Raíz n-ésima $\sqrt[n]{x}$
+Unión $\cup$
+Intersección $\cap$
+OR lógico $\vee$
+AND Lógico $\wedge$
+
+Igual $=$
+Aproximado $\approx$
+No igual , no equals $\ne$
+Mayor que  $>$
+Menor que  $<$
+Mayor o igual, greater equal $\ge$
+Menor o igual, less equal    $\le$
+
+Sumatorio $\sum_{i=0}^{n}$
+Productorio$\prod_{i=0}^{n}$
+integral $\int_{a}^{b}$
+Union grande $\bigcup$ 
+Interseccion $\bigcap$
+Or logico grande $\bigvee$
+And lógico grande $\bigwedge$
+
+Paréntesis $()$
+Corchetes $[]$
+Llaves $\{\}$
+Diamante $\langle \rangle$
+Parte entera por defecto $\lfloor \rfloor$
+Parte entera por exceso $\lceil \rceil$
+Espacio en blanco $hola\ caracola$
+
+Alpha $\alpha$
+Beta $\beta$
+Gamma $\gamma \Gamma$
+Delta $\delta \Delta$
+Epsilon $\epsilon$
+Epsilon $\varepsilon$
+Zeta $\zeta$
+
+Pi $\pi\ \Pi$
+Tau $\tau$
+Chi $\chi$
+Omega $\omega\ \Omega$
+Barra $\bar{x}$
+
+Exponencial $\exp$
+Logaritmo $\log$
+Logaritmo neperiano $\ln$
+Maximo $\max$ 
+Mínimo $\min$
+Limite $\lim$
+Negrita $\mathbf{mipi}$  $\boldsymbol{mipi}$
+
+Fracciones
+mismo parrafo pequeño $\frac{a}{b}$
+mismo parrafo Grande  $\dfrac{a}{b}$
+mismo pa.gran. parentesis chicos $(\dfrac{a}{b})$
+mis.pa.gra.parentesis Grandes $\left(\dfrac{a}{b}\right)$
+sin linea en medio con parentesis ${a \choose b}$
+
+Matrices
+$$\begin{matrix} a_{1} & a_{2} & a_{3} \\ a_{x} & a_{y} & a_{z} \end{matrix}$$  
+$$\begin{pmatrix} a_{1} & a_{2} & a_{3} \\ a_{x}&a_{y}&a_{z} \end{pmatrix}$$
+$$\begin{vmatrix}a_{1}&a_{2}&a_{3}\\a_{x}&a_{y}&a_{z}\end{vmatrix}$$
+$$\begin{bmatrix}a_{x}&a_{y}&a_{z}\\a_{1}&a_{2}&a_{3}\end{bmatrix}$$
+$$\begin{Bmatrix}a^{X}&a^{Y}&a^{Z}\\a^{r}&a^{m}&a^{n}\end{Bmatrix}$$
+$$\begin{Vmatrix}x^{2}&x^{3}&x^{4}\\x^{5}&x^{6}&x^{7}\end{Vmatrix}$$
+Sistema de Ecuaciones
+\begin{array}{l}\end{array} La l,puede llevar c, r, para alinear texto.
+Si pones \left., el punto indica que no aparezca nada 
+$$\left.\begin{array}{l} ax+by=c \\ ex-fg = g \end{array}\right\}$$ 
+$$|x|=\left\{\begin{array}{rr} -x & \text{si }x\le 0\\ x & \text{si }x \ge 0 \end{array}\right.$$

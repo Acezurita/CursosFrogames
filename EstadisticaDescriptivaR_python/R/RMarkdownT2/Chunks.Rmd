@@ -1,0 +1,52 @@
+---
+title: "Chunks"
+author: "Acezurita"
+date: "15/6/2022"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Chunks
+Pedazos de codigo que se pueden ejecutar en el document.
+Triple comilla para abrir y cerrar los codigos.
+Ecuación : $\sqrt[2]{2} + e^{-2}$
+```{r ecuacion}
+sqrt(2)+exp(-2)
+```
+
+Parametros 
+echo = TRUE por defecto, indica que aparezca la chunk en el documento final  
+echo = FALSE , oculta el codigo de la chunk en el documento final  
+eval = TRUE , se evalua la expresión, se realiza el caculo   
+eval = FALSE, no se evalua   
+message = Da mensajes sobre lo que se ejecuta y lo que se hace   
+comment = NA   Desaparece los # al ejecutarse los codigos  
+results = hide Oculta el resultado, se ejecuta pero no se muestra  
+results = markup lenguaje por default para mostrar el resultado ##   
+results = asis Muestra los resultados linea a linea  
+results = hold ,Muestra todos los resultados de golpe, en una sola salida
+```{r no mostrar,echo=TRUE, eval=FALSE}
+sqrt(2)-exp(-2)
+```
+
+Codigo R en una sola linea:  
+Se usa comillas simples ya la palabra r
+El resultado de la raiz cuadrada de dos es:  
+En $\LaTeX$ es $\sqrt[2]{2}$  
+En `R` sería `r sqrt(2)`  
+Frase completa: La $\sqrt[2]{2}$ es `r sqrt(2)`
+
+```{r una linea, results='hide',echo= FALSE}
+notas = c(9,8,7,7,9,9,10,10,6)
+media = mean(notas)
+n = length(notas)
+desviacion = sd(notas)
+```
+Este año he hecho un total de examenes $n=$ `r n` los cuales tienen  
+una media de $\overline{x}=$ `r round(media,2)` con una 
+desviacion de $s=$ `r round(desviacion,2)`
